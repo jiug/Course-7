@@ -43,6 +43,7 @@ Gradient boosting (gradient descent) was selected as the ideal model for this pr
 After this result, the hyperparameters were tuned again, this time aiming to optimize  **recall**. This was done because, in this particular scenario, false negatives are less desirable than false positives. This second model didn't perform better than the first one, and so it was discarded.
 
 The following graph shows the most influential factors.
+
 <img alt="Influence of features" src="./images/image-2.png" with="450" height="350">
 
 Is important to mention that tenure may be an important factor related to the clustering as described in the previous epigraph. Employees with not too high satisfaction and very low evaluation tend to leave the company (presumably getting fired) only when their tenure is below 4 years. The same region of the graph is quite depopulated for tenure above 4 years.  
