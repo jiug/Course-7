@@ -45,7 +45,7 @@ After this result, the hyperparameters were tuned again, this time aiming to opt
 The following graph shows the most influential factors.
 <img alt="Influence of features" src="./images/image-2.png" with="450" height="350">
 
-Is important to mention that tenure may be an important factor related to the clustering that was described in the previous epigraph. Employees with not too high satisfaction and very low evaluation tend to leave the company (in a business scenario this could be identified as getting fired) only when their tenure is below 4 years. The same region of the graph is quite depopulated for tenure above 4 years.  
+Is important to mention that tenure may be an important factor related to the clustering as described in the previous epigraph. Employees with not too high satisfaction and very low evaluation tend to leave the company (presumably getting fired) only when their tenure is below 4 years. The same region of the graph is quite depopulated for tenure above 4 years.  
 
 Seeing these results, in particular that the number of projects seems to be highly influential, further inspection on this was needed and a new pattern was revealed.
 
