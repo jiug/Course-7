@@ -4,7 +4,7 @@
 
 The goal of this project is to create a model that allows a company's HR department predict when employees are likely to leave the company. This phenomena could be caused by the employee either being laid off or voluntarily quitting and it will be addressed as **turnover**. The data on which to train the model has been collected by the HR department. 
 
-The final model has a 98.29% accuracy and 91.78% recall identifying employees who will leave the company. The most influential factors are:
+The final model has a 98.46% accuracy and 93.21% recall identifying employees who will leave the company. The most influential factors are:
 
  - Self reported satisfaction level
  - Time spent working for the company
@@ -36,11 +36,11 @@ As stated in the previous epigraph, one can imagine that the reasons for leaving
  
 ## Modeling and Evaluation
 
-Gradient boosting (gradient descent) was selected as the ideal model for this project. One of the reasons being that the data doesn't show any strong linear relationship between the features and the target. To find the optimal hyperparameters the metric selected was **f1**. The best model, using 100 decision tress, correctly classified 98.29% of the data provided outside of the training set. The following is a summary of the results for the model:
+Gradient boosting (gradient descent) was selected as the ideal model for this project. One of the reasons being that the data doesn't show any strong linear relationship between the features and the target. To find the optimal hyperparameters the metric selected was **f1**. The best model, using 100 decision tress, correctly classified 98.46% of the data provided outside of the training set. The following is a summary of the results for the model:
 
 <img alt="Confusion Matrix" src="./images/image-1.png" with="300" height="300">
 
-After this result, the hyperparameters were tuned again, this time aiming to optimize  **recall**. This was done because, in this particular scenario, false negatives are less desirable than false positives. This second model didn't perform better than the first one, and so it was discarded.
+After this result, the hyperparameters were tuned again, this time aiming to optimize  **recall**. This was done because, in this particular scenario, false negatives are less desirable than false positives. This second model didn't perform better than the first one so it was discarded.
 
 The following graph shows the most influential factors.
 
