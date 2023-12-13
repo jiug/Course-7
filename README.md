@@ -56,4 +56,16 @@ Even though the distribution of number of projects among employees (red + green)
 
 ## Conclusion
 
-This model could inform the HR department on ways to reduce employee turnover by trying to affect it's lead measures. 
+Gradient Boosting is a powerful tool that allows to create a classifier with 98.46 accuracy. It also informs about the weight each of the features has in influencing the target variable. A list of the most important features is shown below:
+
+- Satisfaction 
+- Tenure
+- Number of projects
+- Evaluation
+- Average monthly hours
+
+It is important to understand that there isn't a linear relation between these features and the target variable. An example could be satisfaction: Intuitively one could assume that satisfied workers will be less likely to leave the company, but the data shows that both very satisfied and very unsatisfied employees en up leaving the company.
+
+In order for the HR department to know how to act, they will have to look into the individual metrics of a particular employee. And the importance table shown above could inform about which metrics to check first. 
+
+Let's suppose an scenario where HR identifies that Employee A is likely to leave the company. There won't be one single solution that solves this problem for everyone. Instead, HR would have to find where does Employee A stand in the satisfaction-evaluation graph. Does he belong to the group of low satisfaction/high evaluation employees? Or does he belong to the group of average satisfaction/low evaluation? How long has he been in the company? How many projects is he involved in. 
